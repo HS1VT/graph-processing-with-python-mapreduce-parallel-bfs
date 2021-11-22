@@ -36,4 +36,8 @@ Map-reduce setup, justify it.
 
 
 Towards the end, we also used AWS EMR to compare the runtimes.
+The iterations were quite difficult for running the MapReduce as we did'nt knew how many iterations BFS is going to take.
+We handled the iteration by chaining them through a shell script.
+
+Algorithm Used: Dijkstra: Parallel BFS
  
